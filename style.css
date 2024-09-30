@@ -118,6 +118,11 @@
     display: none;
 }
 
+.w-icon {
+    width: 50px; 
+    height: 25px; 
+}
+
 /* Responsiveness */
 
 @media(max-width: 768px){
@@ -127,8 +132,8 @@
         display: flex;
         justify-content: center;
         text-align: center;
-        height: 70vh;
-        max-width: 100vh;
+        height: 80vh;
+        width: 100vw;
         color: white;
     }
 
@@ -139,15 +144,15 @@
     }
 
     .search-bar input {
-        font-size: 8px;
-        padding: 5px 15px;
+        font-size: 14px;
+        padding: 10px 40px;
         border: none;
         outline: 0;
         border-radius: 50px;
     }
 
     .search-bar button {
-        padding: 3px 5px;
+        padding: 10px 10px;
         background-color: none;
         /* margin-top: -10px; */
         border: none;
@@ -157,28 +162,28 @@
 
     .weather-icon {
         margin-top: -20px;
-        width: 60px;
-        height: 60px;
+        width: 100px;
+        height: 100px;
     }
 
     .fa-magnifying-glass {
-        font-size: 12px;
+        font-size: 16px;
     }
 
     .error {
         text-align: center;
-        font-size: 8px;
+        font-size: 14px;
         padding-bottom: 30px;
         display: none;
     }
 
     .weather h1 {
-        font-size: 35px;
+        font-size: 60px;
         font-weight: 500;
         
     }
     .weather h2 {
-        font-size: 20px;
+        font-size: 40px;
         font-weight: 400;
     }
 
@@ -186,19 +191,25 @@
         display: flex;
         justify-content: space-between;
         align-items: center;
-        padding: 0 20px;
+        padding: 0 40px;
         margin-top: 35px;
+        gap: 30px;
     }
 
-    .col div {
-        font-size: 8px;
+    .humidity-icon {
+        width: 60px;
     }
 
-    .humidity,
-    .wind{
-        font-size: 14px;
+    .w-icon {
+        width: 50px;
+        height: 30px;
+        
+    }
+    .wind {
+        font-size: 20px;
     }
 
+   
 }
 
 
