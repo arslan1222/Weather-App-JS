@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css"
+      integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <title>Today Weather</title>
+    <link href="style.css" rel="stylesheet" />
+  </head>
+  <body>
+    <div class="container">
+      <div class="search-bar">
+        <input type="text" placeholder="Enter City Name" spellcheck="false" />
+        <button><i class="fa-solid fa-magnifying-glass"></i></button>
+      </div>
+      <div class="error">
+        <p>Invalid city name</p>
+      </div>
+      <div class="weather">
+        <img
+          src="./assets/cloudy.png"
+          class="weather-icon"
+          alt=""
+        />
+        <h1 class="temp">15°c</h1>
+        <h2 class="city">Sialkot</h2>
+
+        <div class="details">
+          <div class="col">
+            <img class="humidity-icon" src="/assets/humidity_icon.png" alt="" />
+            <div>
+              <p class="humidity">40%</p>
+              <p>Humidity</p>
+            </div>
+          </div>
+          <div class="col">
+            <p><i class="fa-solid fa-wind show-icon"></i></p>
+            <div>
+              <p class="wind">15km/h</p>
+              <p>Wind Speed</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <script src="script.js"></script>
+  </body>
+</html>
